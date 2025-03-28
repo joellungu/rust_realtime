@@ -1,0 +1,12 @@
+[package]
+name = "realtime"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.44.1", features = ["full"] }
+tokio-tungstenite = "0.26.2"
+futures-util = "0.3.0"
+rtmp = "0.6.5"
+anyhow = "1.0.97"
+streamhub = "0.2.4"
